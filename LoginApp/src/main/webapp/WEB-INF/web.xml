@@ -1,0 +1,38 @@
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RegistrationServlet</servlet-name>
+  	<display-name>RegistrationServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.pkg.Controller.RegistrationServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginController</servlet-name>
+  	<display-name>LoginController</display-name>
+  	<description></description>
+  	<servlet-class>com.pkg.Controller.LoginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>ForgotPasswordServlet</display-name>
+  	<servlet-name>ForgotPasswordServlet</servlet-name>
+  	<servlet-class>com.pkg.Controller.ForgotPasswordServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RegistrationServlet</servlet-name>
+  	<url-pattern>/RegistrationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginController</servlet-name>
+  	<url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ForgotPasswordServlet</servlet-name>
+  	<url-pattern>/ForgotPasswordServlet</url-pattern>
+  </servlet-mapping>
+ <context-param>
+ 		<param-name>name</param-name>
+ 		<param-value>srikanth</param-value>
+ </context-param>
+</web-app>
